@@ -2,3 +2,5 @@
 
 %:
 	dh $@ --buildsystem=phppear --with phppear --with php5
+
+override_dh_auto_test:
