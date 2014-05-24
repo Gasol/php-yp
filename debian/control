@@ -10,7 +10,7 @@ Build-Depends: dh-php5,
 Standards-Version: 3.9.4
 Homepage: http://pecl.php.net/package/yp/
 
-Package: php-yp
+Package: php5-yp
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${phppear:Debian-Depends}
 Recommends: ${phppear:Debian-Recommends}
