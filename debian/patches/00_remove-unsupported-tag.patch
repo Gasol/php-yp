@@ -1,0 +1,29 @@
+Description: Fix following problem
+
+   dh_phppear -O--buildsystem=phppear
+[pear_error: message="Tag 'os' not supported in required os: Array
+(
+    [name] => windows
+    [conflicts] => 
+    [exclude] => Array
+        (
+        )
+
+)
+" code=0 mode=return level=notice prefix="" info=""]
+
+Index: b/package.xml
+===================================================================
+--- a/package.xml	2014-05-12 18:03:08.000000000 +0800
++++ b/package.xml	2014-05-25 00:16:47.163256510 +0800
+@@ -72,10 +72,6 @@
+    <pearinstaller>
+     <min>1.4.0b1</min>
+    </pearinstaller>
+-   <os>
+-    <name>windows</name>
+-    <conflicts />
+-   </os>
+   </required>
+  </dependencies>
+  <providesextension>yp</providesextension>
