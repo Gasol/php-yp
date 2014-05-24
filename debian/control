@@ -1,0 +1,15 @@
+Source: php-yp
+Section: php
+Priority: optional
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Gasol Wu <gasol.wu@gmail.com>
+Build-Depends: dh-php5, debhelper (>= 9), php5-dev, pkg-php-tools,
+ pkg-php-tools (>= 1.6~)
+Standards-Version: 3.9.4
+Homepage: http://pecl.php.net/package/yp/
+
+Package: php-yp
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${php:Depends}
+Description: ${phppear:summary}
+ ${phppear:description}
