@@ -1,7 +1,7 @@
 Source: php-yp
 Section: php
 Priority: optional
-Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Maintainer: Debian PHP PECL Maintainers <pkg-php-pecl@lists.alioth.debian.org>
 Uploaders: Gasol Wu <gasol.wu@gmail.com>
 Build-Depends: dh-php5,
  debhelper (>= 9),
