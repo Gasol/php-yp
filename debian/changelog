@@ -1,5 +1,5 @@
 php-yp (1.0.1-1) UNRELEASE; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #749244)
 
- -- Gasol Wu <gasol.wu@gmail.com>  Sat, 24 May 2014 15:25:34 +0000
+ -- Gasol Wu <gasol.wu@gmail.com>  Mon, 26 May 2014 10:04:20 +0800
